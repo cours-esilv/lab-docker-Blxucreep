@@ -2,3 +2,13 @@ version: '3'
 services:
   back-service:
     image: blxucreep/mlopstd3back:0.1
+    environment:
+      - 'CURRENT_ENVIRONMENT=dev'
+    ports:
+      - '8080:5000'
+  front-service:
+    image: blxucreep/mlopstd3front:0.1
+    environment:
+      - 'WS_BACK_URL=http://localhost:8080'
+    ports:
+      - '8081:80'
