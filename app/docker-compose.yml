@@ -7,8 +7,8 @@ services:
     ports:
       - '8080:5000'
     volumes:
-      - ./back/volumes:/app # at the left, it's the local folder, at the right side, it's the folder in the container
-      # everything that is in the /app folder in the container will be in the ./back/volumes folder in the local machine
+      - ./back:/app # at the left, it's the local folder, at the right side, it's the folder in the container
+      # everything that is in the /app folder in the container will be in the ./back folder in the local machine
   front-service:
     image: blxucreep/mlopstd3front:0.1
     environment:
