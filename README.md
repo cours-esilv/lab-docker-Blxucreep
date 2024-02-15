@@ -162,7 +162,7 @@ Stop all the containers and delete all the local images you have created so far.
 
 > ⚠️ **ANSWER**: Create a file called `1.14` containing the commands you used to stop all containers.
 
-#2: Docker Compose
+## 2: Docker Compose
 In this part, we're going to use docker-compose to automate the deployment of the containers we launched in part 1 of the tp.
 
 ### 2.0: Download docker-compose
