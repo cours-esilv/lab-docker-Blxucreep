@@ -1,0 +1,4 @@
+version: '3'
+services:
+  back-service:
+    image: blxucreep/mlopstd3back:0.1
