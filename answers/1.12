@@ -1,0 +1,1 @@
+docker run -d -p 8081:80 -e WS_BACK_URL=http://localhost:8080 --name mlopstd3front blxucreep/mlopstd3front:0.1
